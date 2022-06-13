@@ -14,6 +14,8 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
 import de.fhbielefeld.dvdverwaltung.entity.Aufbewahrungsplatz;
 
+//@author Linus Kliemann
+
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
 class AufbewahrungsplatzRepositoryTest {
