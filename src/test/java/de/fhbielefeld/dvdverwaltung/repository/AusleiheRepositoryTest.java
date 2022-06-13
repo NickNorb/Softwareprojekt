@@ -20,6 +20,8 @@ import de.fhbielefeld.dvdverwaltung.entity.DVD;
 import de.fhbielefeld.dvdverwaltung.entity.Person;
 import de.fhbielefeld.dvdverwaltung.entity.SerieFilm;
 
+//@author Linus Kliemann
+
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
 class AusleiheRepositoryTest { 
