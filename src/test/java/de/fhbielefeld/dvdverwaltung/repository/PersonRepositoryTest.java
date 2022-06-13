@@ -15,6 +15,8 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
 import de.fhbielefeld.dvdverwaltung.entity.Person;
 
+//@author Linus Kliemann
+
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
 class PersonRepositoryTest {
