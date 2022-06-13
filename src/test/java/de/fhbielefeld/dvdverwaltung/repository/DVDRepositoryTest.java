@@ -16,6 +16,9 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import de.fhbielefeld.dvdverwaltung.entity.Aufbewahrungsplatz;
 import de.fhbielefeld.dvdverwaltung.entity.DVD;
 import de.fhbielefeld.dvdverwaltung.entity.SerieFilm;
+
+//@author Linus Kliemann
+
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
 class DVDRepositoryTest {
